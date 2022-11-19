@@ -1,0 +1,13 @@
+Parsed correctly
+Parse Tree :
+<start>
+<if_statement>
+if <logic_expr> <statement>
+if <var> < <var> <statement>
+if k < <var> <statement>
+if k < L <statement>
+if k < L {<var> := <expr>}
+if k < L {p := <expr>}
+if k < L {p := <var> % <var>}
+if k < L {p := a % <var>}
+if k < L {p := a % D}
